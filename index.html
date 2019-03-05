@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ACU</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ACU</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contáctanos</a>
+        </li>
+    </div>
+  </nav>
+  <section id="cabecera">
+    <div class="h-text text-light">
+      <div class="starter-template">
+        <h1>Nuestros Proyectos</h1>
+        <p class="lead">Buscamos fortalecer las capacidades sociales y el desarrollo cultural<br> de los jóvenes,
+          adolescentes y las familias de Moro.</p>
+        <a href="" class="btn btn-primary">Button</a><a href="" class="btn btn-primary">New Button</a>
+      </div>
+    </div>
+  </section>
+
+  <main role="main" class="container">
+    <div class="starter-template">
+      <h1>Primera Seccion</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatibus assumenda deleniti
+        dolores vel cum accusamus enim, debitis impedit obcaecati illum at incidunt nobis quos, dolorem, rem sunt
+        voluptatum nisi!</p>
+    </div>
+  </main>
+
+
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+
+      var height = $(window).height();
+
+      $('#cabecera').height(height);
+    });
+
+  </script>
+
 </body>
+
 </html>

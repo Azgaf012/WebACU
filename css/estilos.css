@@ -1,0 +1,49 @@
+/*body{
+    padding-top: 5rem;
+}*/
+
+.starter-template{
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #10caca;
+    padding: 27px 50px;
+    font-size: 27px;
+    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    height: 100px;
+    width: 250px;
+    margin:20px;
+    border-radius:50px;
+    transition: 2s ease-in-out;
+    -webkit-transition: 2s ease-in-out;
+}
+
+.btn-primary:hover{
+    color: yellow;
+    background-color:red;
+    border-color: red;
+    box-shadow: 10px 10px 25px #777;
+    transform: scale(1.1) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+}
+
+#cabecera{
+    background-image: url(../img/slider/s02.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: 50% 50%;
+}
+
+
+
+.h-text{
+    padding: 20% 2%;
+}
+
+.bg-dark{
+    background-color: transparent !important;
+}
